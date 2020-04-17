@@ -1,6 +1,5 @@
-# CISC684_Text_Classification
-## By: Eric Allen, Matthew Walter, Murugesan Somasundaram
-Requires Python 3.6
+# Email_Text_Classification
+## By: Matthew Walter, Eric Allen, Murugesan Somasundaram
 
 Libraries: os, sys, re, math, glob, collections, pandas, numpy,
 
