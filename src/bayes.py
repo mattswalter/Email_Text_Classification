@@ -76,7 +76,6 @@ def prob_class(spam, ham, l):
 
 def bayes_equation(words, spam, ham, p):
     """Calculates Bayes """
-    #Matt: Not sure what this is -- Eric
     #Second half of bayes equation: total words in that class + distinct words in dataset
     #prob_spam = words[0]+words[2]
     #prob_ham = words[1]+words[2]
@@ -150,8 +149,7 @@ def bayes_test(freq_ham, freq_spam, emails, idx, c, words, spam_ham_data):
         if c == 0:
             spam_ham_data['spam_r'] = 1 + spam_ham_data['spam_r']
     
-    ##TODO: PROBLEM WITH THE PAPER? What if they are equal spam and ham.... Doesn't happen here
-    # But I would presume that if they are equal then it is ham.... 
+  
 
     if c == 1:
         return spam_ham_data['ham_r'], spam_ham_data['ham_w']
